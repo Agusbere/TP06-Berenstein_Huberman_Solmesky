@@ -505,24 +505,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\48178406\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\HUBERMAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\4ID\\Programación\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj",
+      "projectUniqueName": "C:\\Users\\HUBERMAN\\Downloads\\dsdsd\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj",
       "projectName": "TP06-Berenstein_Huberman_Solmesky",
-      "projectPath": "Z:\\4ID\\Programación\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj",
-      "packagesPath": "C:\\Users\\48178406\\.nuget\\packages\\",
-      "outputPath": "Z:\\4ID\\Programación\\TP06-Berenstein_Huberman_Solmesky\\obj\\",
+      "projectPath": "C:\\Users\\HUBERMAN\\Downloads\\dsdsd\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj",
+      "packagesPath": "C:\\Users\\HUBERMAN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HUBERMAN\\Downloads\\dsdsd\\TP06-Berenstein_Huberman_Solmesky\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\48178406\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HUBERMAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
