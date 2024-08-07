@@ -69,7 +69,19 @@ public class BD
         return ListaPaises;
     }
 
-    public static List<Deportista> ListarDeportistas(int idDeporte)
+     public static List<Pais> ListarDeportistas()
+    {
+
+        List<Pais> ListaPaises = null;
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+        string sql = "SELECT * FROM Deportista";
+        ListaDeportistas = db.Query<Pais>(sql);
+        }
+        return ListaDeportistas;
+    }
+
+    public static List<Deportista> ListarDeportistasPorDeporte(int idDeporte)
     {
 
         List<Deportista> ListaDeportistas = null;
@@ -78,16 +90,16 @@ public class BD
         string sql = "SELECT * FROM Deportistas WHERE IdDeporte = @pidDeporte";
         ListaDeportistas = db.Query<Deportista>(sql, new {IdDeporte = pidDeporte}).ToList();
         }
-        return ListaDeportistas;
+        return ListaDeportistasPorDeporte;
     }
 
-    public static List<Deporte> ListarDeportes (int idPais){
+    public static List<Deporte> ListarDeportistasPorPais (int idPais){
         List<Deporte> ListaDeportes = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-        string sql = "SELECT * FROM Deportes WHERE IdPais = @pidPais";
-        ListaDeportes = db.Query<Deporte>(sql, new {IdPais = pidPais}).ToList();
+        string sql = "SELECT * FROM Deportista WHERE IdPais = @pidPais";
+        ListaDeportes = db.Query<Deportista>(sql, new {IdPais = pidPais}).ToList();
         }
-        return ListaDeportes;
+        return ListaDeportistasPorPais;
     }
 }

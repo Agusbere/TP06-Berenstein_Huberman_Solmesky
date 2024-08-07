@@ -17,17 +17,59 @@ public class HomeController : Controller
     {
         return View();
     }
+    public IActionResult Creditos()
+    {
+        return View();
+    }
 
     public IActionResult Deportista()
     {
-        //Viewbag
+        Viewbag.Deportista = BD.ListarDeportistas();
         return View();
     }
 
     public IActionResult Deportes()
     {
-        //Viewbag
+        Viewbag.Deportes = BD.ListarDeportes();
         return View();
+    }
+
+    public IActionResult Paises()
+    {
+        Viewbag.Paises = BD.ListarPaises();
+        return View();
+    }
+
+    IActionResult AgregarDeportista()
+    {
+        Viewbag.Paises = BD.ListarPaises();
+        Viewbag.Deportes = BD.ListarDeportes();
+        return View();
+    }
+
+    IActionResult VerDetallePais(int idPais)
+    {
+        ViewBag.VerDetallePais = BD.VerInfoPais(idPais);
+        Viewbag.DeportistaPais = BD.ListarDeportistasPorPais(idPais);
+        return View();
+    }
+
+    IActionResult VerDetalleDeporte(int idDeporte)
+    {
+        ViewBag.VerDetalleDeporte = BD.VerInfoDeporte(idDeporte);
+        Viewbag.DeportistaDeporte = BD.ListarDeportistasPorDeporte(idDeporte);
+        return View();
+    }
+
+    IActionResult GuardarDeportista(Deportista dep){
+
+        BD.AgregarDeportista(dep);
+    }
+
+    IActionResult EliminarDeportista(int idCandidato)
+    {
+        BD.EliminarDeportista(idCandidato);
+        return View ("Index");
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -35,4 +77,5 @@ public class HomeController : Controller
     {
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
+
 }
