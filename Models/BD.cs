@@ -63,7 +63,8 @@ public class BD
         List<Pais> ListaPaises = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-        //AGREGAR PARTE DE QUERY
+        string sql = "SELECT * FROM Paises";
+        ListaPaises = db.Query<Pais>(sql);
         }
         return ListaPaises;
     }
@@ -74,8 +75,8 @@ public class BD
         List<Deportista> ListaDeportistas = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-        string sp = "TraerDeportistaxDeporte";
-        ListaDeportistas = db.Query<Deportista>(sp, new {IdDeporte = idDeporte}, commandType: CommandType.StoredProcedure).ToList();
+        string sql = "SELECT * FROM Deportistas WHERE IdDeporte = @pidDeporte";
+        ListaDeportistas = db.Query<Deportista>(sql, new {IdDeporte = pidDeporte}).ToList();
         }
         return ListaDeportistas;
     }
@@ -84,8 +85,8 @@ public class BD
         List<Deporte> ListaDeportes = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-        string sp = "TraerDeportexPais";
-        ListaDeportes = db.Query<Deporte>(sp, new {IdPais = idPais}, commandType: CommandType.StoredProcedure).ToList();
+        string sql = "SELECT * FROM Deportes WHERE IdPais = @pidPais";
+        ListaDeportes = db.Query<Deporte>(sql, new {IdPais = pidPais}).ToList();
         }
         return ListaDeportes;
     }
