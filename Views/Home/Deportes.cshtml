@@ -1,6 +1,5 @@
 @foreach (Deporte deporte in ViewBag.Deportes)
 {
-    <p>@deporte.IdDeporte</p>
     <p>@deporte.Nombre</p>
-    <p>@deporte.Foto</p>
+    <img src="~/img/@deporte.Foto"></img>
 }

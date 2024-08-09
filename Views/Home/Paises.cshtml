@@ -1,7 +1,6 @@
 @foreach (Pais pais in ViewBag.Paises)
 {
-    <p>@pais.IdPais</p>
     <p>@pais.Nombre</p>
-    <p>@pais.Bandera</p>
+    <img src="~/img/@pais.Bandera"></img>
     <p>@pais.FechaFundacion</p>
 }
