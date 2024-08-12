@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s2unuuejwytfy534u73k7iXQ+sp5L1JkGvGV4aTPNyC8ANlK2EaECMf35GTKvhzsCvHcEAn3X3Pm6uqimQwP0A==",
+  "dgSpecHash": "rw8KkZV+GhiJIjPFLYsAq4yaMPSuuvr0XUVjmA3Y+hmLP4ekGtilqSz+qWjh6FyoucRvYXSbxDwYq1Bo5Iwuvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\48178406\\Desktop\\sadg\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj",
+  "projectFilePath": "C:\\Users\\48178406\\Desktop\\fekjnv\\TP06-Berenstein_Huberman_Solmesky.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48178406\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\48178406\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

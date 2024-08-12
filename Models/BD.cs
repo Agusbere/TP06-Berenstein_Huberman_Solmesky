@@ -104,12 +104,12 @@ public class BD
         return ListaDeportistasPorDeporte;
     }
 
-    public static List<Deporte> ListarDeportistasPorPais (int idPais){
-        List<Deporte> ListaDeportistasPorPais = null;
+    public static List<Deportista> ListarDeportistasPorPais (int idPais){
+        List<Deportista> ListaDeportistasPorPais = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
         string sql = "SELECT * FROM Deportista WHERE IdPais = @pidPais";
-        ListaDeportistasPorPais = db.Query<Deporte>(sql, new {pidPais = idPais}).ToList();
+        ListaDeportistasPorPais = db.Query<Deportista>(sql, new {pidPais = idPais}).ToList();
         }
         return ListaDeportistasPorPais;
     }

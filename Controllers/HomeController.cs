@@ -22,9 +22,17 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Deportista()
+    public IActionResult Deportistas(int idPais)
     {
-        ViewBag.Deportista = BD.ListarDeportistas();
+        ViewBag.Deportista = BD.ListarDeportistasPorPais(idPais);
+        return View();
+    }
+
+    public IActionResult VerDetalleDeportistas(int idDeportista)
+    {
+        ViewBag.VerDetalleDeportistas = BD.VerInfoDeportista(idDeportista);
+        ViewBag.VerDetalleDeportistasP = ViewBag.VerDetalleDeportistas.IdPais;
+
         return View();
     }
 

@@ -1,0 +1,6 @@
+<p>@ViewBag.VerDetalleDeportistas.Nombre</p>
+<p>@ViewBag.VerDetalleDeportistas.Apellido</p>
+<p>@ViewBag.VerDetalleDeportistas.FechaNacimiento.ToShortDateString()</p>
+<p>@ViewBag.VerDetalleDeportistas.Foto</p>
+<a href='@Url.Action("VerDetalleDeporte")'>Deporte</a>
+<a href='@Url.Action("VerDetallePais", new {idPais = ViewBag.VerDetalleDeportistas.IdPais})'></a>
