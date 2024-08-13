@@ -1,0 +1,6 @@
+@foreach (Deportista deportista in ViewBag.DeportistaDeporte)
+{
+    <p>@deportista.Nombre</p>
+    <p>@deportista.Apellido</p>
+    <img src="~/img/@deportista.Foto">
+}
