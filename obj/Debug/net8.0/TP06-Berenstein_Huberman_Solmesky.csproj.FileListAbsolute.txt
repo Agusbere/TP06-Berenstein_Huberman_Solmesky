@@ -118,3 +118,43 @@ C:\Users\48179712\Downloads\rythtry\obj\Debug\net8.0\refint\TP06-Berenstein_Hube
 C:\Users\48179712\Downloads\rythtry\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.pdb
 C:\Users\48179712\Downloads\rythtry\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.genruntimeconfig.cache
 C:\Users\48179712\Downloads\rythtry\obj\Debug\net8.0\ref\TP06-Berenstein_Huberman_Solmesky.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\appsettings.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.staticwebassets.runtime.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.exe
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.deps.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.runtimeconfig.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.pdb
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\Dapper.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.csproj.AssemblyReference.cache
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.AssemblyInfoInputs.cache
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.AssemblyInfo.cs
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.csproj.CoreCompileInputs.cache
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.RazorAssemblyInfo.cache
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.RazorAssemblyInfo.cs
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.sourcelink.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\staticwebassets\msbuild.TP06-Berenstein_Huberman_Solmesky.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\staticwebassets\msbuild.build.TP06-Berenstein_Huberman_Solmesky.props
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TP06-Berenstein_Huberman_Solmesky.props
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TP06-Berenstein_Huberman_Solmesky.props
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\scopedcss\bundle\TP06-Berenstein_Huberman_Solmesky.styles.css
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\scopedcss\projectbundle\TP06-Berenstein_Huberman_Solmesky.bundle.scp.css
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Ber.3EF9AD95.Up2Date
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\refint\TP06-Berenstein_Huberman_Solmesky.dll
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.pdb
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\TP06-Berenstein_Huberman_Solmesky.genruntimeconfig.cache
+C:\Users\48178406\Desktop\Nueva carpeta\TP06-Berenstein_Huberman_Solmesky\obj\Debug\net8.0\ref\TP06-Berenstein_Huberman_Solmesky.dll

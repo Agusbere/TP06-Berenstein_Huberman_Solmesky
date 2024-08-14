@@ -28,11 +28,9 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult VerDetalleDeportistas(int idDeportista)
+    public IActionResult VerDetalleDeportista(int idDeportista)
     {
         ViewBag.VerDetalleDeportistas = BD.VerInfoDeportista(idDeportista);
-        ViewBag.VerDetalleDeportistasP = ViewBag.VerDetalleDeportistas.IdPais;
-
         return View();
     }
 
@@ -48,33 +46,33 @@ public class HomeController : Controller
         return View();
     }
 
-    IActionResult AgregarDeportista()
+    public IActionResult AgregarDeportista()
     {
         ViewBag.Paises = BD.ListarPaises();
         ViewBag.Deportes = BD.ListarDeportes();
         return View();
     }
 
-    IActionResult VerDetallePais(int idPais)
+    public IActionResult VerDetallePais(int idPais)
     {
         ViewBag.VerDetallePais = BD.VerInfoPais(idPais);
         ViewBag.DeportistaPais = BD.ListarDeportistasPorPais(idPais);
         return View();
     }
 
-    IActionResult VerDetalleDeporte(int idDeporte)
+    public IActionResult VerDetalleDeporte(int idDeporte)
     {
         ViewBag.VerDetalleDeporte = BD.VerInfoDeporte(idDeporte);
         ViewBag.DeportistaDeporte = BD.ListarDeportistasPorDeporte(idDeporte);
         return View();
     }
 
-    IActionResult GuardarDeportista(Deportista dep){
+    public IActionResult GuardarDeportista(Deportista dep){
         BD.AgregarDeportista(dep);
         return View("Index");
     }
 
-    IActionResult EliminarDeportista(int idCandidato)
+    public IActionResult EliminarDeportista(int idCandidato)
     {
         BD.EliminarDeportista(idCandidato);
         return View ("Index");
