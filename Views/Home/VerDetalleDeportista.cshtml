@@ -2,5 +2,5 @@
 <p>@ViewBag.VerDetalleDeportistas.Apellido</p>
 <p>@ViewBag.VerDetalleDeportistas.FechaNaciomiento.ToShortDateString()</p>
 <img src="~/img/@ViewBag.VerDetalleDeportistas.Foto">
-<a href='@Url.Action("VerDetalleDeporte", new {idDeporte = ViewBag.VerDetalleDeportistas.IdDeporte})'>Deporte</a>
-<a href='@Url.Action("VerDetallePais", new {idPais = ViewBag.VerDetalleDeportistas.IdPais})'>Pais</a>
+<a href='@Url.Action("VerDetalleDeporte", new {idDeporte = ViewBag.VerDetalleDeportistas.IdDeporte})'><img src="~/img/@ViewBag.DeportistaYDeporte.Foto"></a>
+<a href='@Url.Action("VerDetallePais", new {idPais = ViewBag.VerDetalleDeportistas.IdPais})'><img src="~/img/@ViewBag.DeportistaYPais.Bandera"></a>

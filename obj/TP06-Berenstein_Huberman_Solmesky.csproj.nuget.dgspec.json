@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48178406\\Desktop\\Nueva carpeta\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj": {}
+    "C:\\Users\\48179712\\Desktop\\5y65uy\\TP06-Berenstein_Huberman_Solmesky.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48178406\\Desktop\\Nueva carpeta\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj": {
+    "C:\\Users\\48179712\\Desktop\\5y65uy\\TP06-Berenstein_Huberman_Solmesky.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48178406\\Desktop\\Nueva carpeta\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj",
+        "projectUniqueName": "C:\\Users\\48179712\\Desktop\\5y65uy\\TP06-Berenstein_Huberman_Solmesky.csproj",
         "projectName": "TP06-Berenstein_Huberman_Solmesky",
-        "projectPath": "C:\\Users\\48178406\\Desktop\\Nueva carpeta\\TP06-Berenstein_Huberman_Solmesky\\TP06-Berenstein_Huberman_Solmesky.csproj",
-        "packagesPath": "C:\\Users\\48178406\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48178406\\Desktop\\Nueva carpeta\\TP06-Berenstein_Huberman_Solmesky\\obj\\",
+        "projectPath": "C:\\Users\\48179712\\Desktop\\5y65uy\\TP06-Berenstein_Huberman_Solmesky.csproj",
+        "packagesPath": "C:\\Users\\48179712\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48179712\\Desktop\\5y65uy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\48178406\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\48179712\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

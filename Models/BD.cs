@@ -51,7 +51,7 @@ public class BD
         Deportista deportista = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT d.IdDeportista, d.Apellido, d.Nombre, d.FechaNaciomiento, d.Foto, dep.Nombre, dep.Foto, p.Nombre, p.Bandera FROM Deportistas d INNER JOIN Deportes dep ON d.IdDeporte = dep.IdDeporte INNER JOIN Paises p ON d.IdPais = p.Idpais";  /*WHERE IdDeportista = @pidDeportista*/
+            string sql = "SELECT * FROM deportistas WHERE IdDeportista = @pidDeportista"; 
             deportista = db.QueryFirstOrDefault<Deportista>(sql, new { pidDeportista = idDeportista });
         }
         return deportista;
