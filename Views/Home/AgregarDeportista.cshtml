@@ -1,0 +1,30 @@
+<form action='@Url.Action("GuardarDeportista")'> 
+    <label><input type="text" name="Nombre" autocomplete = "off" required /></label>
+    <label><input type="text" name="Apellido" autocomplete = "off" required /></label>
+    <label><input type="text" name="FechaNaciomiento" autocomplete = "off" required /></label>
+    <label><input type="text" name="Foto" autocomplete = "off" required /></label>
+    <label><input type="text" name="IdPais" autocomplete = "off" required /></label>
+    <label>Pais
+        <select name="IdPais">
+            <option value="">Elige una opcion</option>
+            @foreach (Pais pais in ViewBag.Paises)
+            {
+                <option value="@pais.IdPais">@pais.Nombre</option>
+            }
+        </select>
+    </label>
+
+    <label>Deporte
+        <select name="IdPais">
+            <option value="">Elige una opcion</option>
+            @foreach (Deporte deporte in ViewBag.Deportes)
+            {
+                <option value="@deporte.IdDeporte">@deporte.Nombre</option>
+            }
+        </select>
+    </label>
+
+    
+    <input type="submit"/>
+                
+</form>

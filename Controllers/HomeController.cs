@@ -22,9 +22,9 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Deportistas(int idPais)
+    public IActionResult Deportistas()
     {
-        ViewBag.Deportista = BD.ListarDeportistasPorPais(idPais);
+        ViewBag.Deportista = BD.ListarDeportistas();
         return View();
     }
 
