@@ -20,4 +20,59 @@ html {
 body {
   margin-bottom: 60px;
 }
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.navbar{
+font-size: large;
+
+}
+
+.nav-link{
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.nav-link:hover{
+text-decoration: underline;
+}
+
+.JuegosOlimpicos{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  text-align: left;
+}
+
+.JuegosOlimpicos h1{
+  text-transform: uppercase;
+  font-size: 75px;
+  margin-left: 20%;
+  
+}
+
+.JuegosOlimpicos h3{
+  flex: 1 1 0%;
+  margin-left: 20%;
+  line-height: 2.6rem;
+}
+
+.fondo {
+  background-image: url('https://media.gq.com.mx/photos/6539624920335183f3244843/master/pass/Mejor_e%CC%81poca_para_viajar_a_Pari%CC%81s.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+}
 

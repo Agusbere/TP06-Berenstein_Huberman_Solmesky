@@ -1,5 +1,9 @@
+<div class="row">
 @foreach (Pais pais in ViewBag.Paises)
 {
-    <p>@pais.Nombre</p>
-    <a href='@Url.Action("VerDetallePais", new {idPais = pais.IdPais})'><img src="~/img/@pais.Bandera"></a>
+    <div class="col-sm-2 ms-4 me-4 mb-5 d-flex">
+        <p>@pais.Nombre</p>
+        <a href='@Url.Action("VerDetallePais", new {idPais = pais.IdPais})'><img src="@pais.Bandera" height="160" width="300"></a>
+    </div>
 }
+</div>

@@ -7,37 +7,43 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/TP06_Berenstein_Huberman_Solmesky.styles.css" asp-append-version="true" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href='@Url.Action("Index")'>Home</a>
-        <a class="nav-link active" href='@Url.Action("Deportes")'>Deportes</a>
-        <a class="nav-link active" href='@Url.Action("Paises")'>Paises</a>
-        <a class="nav-link active" href='@Url.Action("Deportistas")'>Deportistas</a>
-      </div>
+<body style="font-family: 'Poppins'">
+  <header>
+    <!--Inicio navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="font-size: large;">
+    <div class="container-fluid">
+    <a class="navbar-brand" href='@Url.Action("Index")'>
+      <img src="~/img/logo.png" alt="Logo_JJOO" height="65"/>
+    </a>
+    <div class="collapse navbar-collapse d-flex justify-content-center">
+      <ul class="navbar-nav" style="font-weight: 500;">
+        <li class="nav-item">
+          <a class="nav-link active text-black" aria-current="page" href='@Url.Action("Deportes")'>Deportes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-black" href='@Url.Action("Paises")'>Paises</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-black" href='@Url.Action("Deportistas")'>Deportistas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-black" href='@Url.Action("Creditos")'>Creditos</a>
+        </li>
+      </ul>
     </div>
-  </div>
-</nav>
+    </div>
+    </nav>
+    <!--Fin navbar-->
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - TP06_Berenstein_Huberman_Solmesky - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

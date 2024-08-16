@@ -2,7 +2,7 @@
 {
     <p>@deportista.Nombre</p>
     <p>@deportista.Apellido</p>
-    <a href='@Url.Action("VerDetalleDeportista", new {idDeportista = deportista.IdDeportista})'><img src="~/img/@deportista.Foto"></a>
+    <a href='@Url.Action("VerDetalleDeportista", new {idDeportista = deportista.IdDeportista})'><img src="@deportista.Foto"></a>
     <a href='@Url.Action("AgregarDeportista")'>Agregar deportista</a>
     
 }

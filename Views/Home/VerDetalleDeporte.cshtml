@@ -1,9 +1,9 @@
     <p>@ViewBag.VerDetalleDeporte.Nombre</p>
-    <img src="~/img/@ViewBag.VerDetalleDeporte.Foto">
+    <img src="@ViewBag.VerDetalleDeporte.Foto" height="160" width="300">
 
 @foreach (Deportista deportista in ViewBag.DeportistaDeporte)
 {
     <p>@deportista.Nombre</p>
     <p>@deportista.Apellido</p>
-    <a href='@Url.Action("VerDetalleDeportista", new {idDeportista = deportista.IdDeportista})'><img src="~/img/@deportista.Foto"></a>
+    <a href='@Url.Action("VerDetalleDeportista", new {idDeportista = deportista.IdDeportista})'><img src="@deportista.Foto" ></a>
 }
