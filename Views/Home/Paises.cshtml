@@ -1,9 +1,15 @@
-<div class="row">
-@foreach (Pais pais in ViewBag.Paises)
-{
-    <div class="col-sm-2 ms-4 me-4 mb-5 d-flex">
-        <p>@pais.Nombre</p>
-        <a href='@Url.Action("VerDetallePais", new {idPais = pais.IdPais})'><img src="@pais.Bandera" height="160" width="300"></a>
-    </div>
-}
+<div class="row mt-5">
+    @foreach (Pais pais in ViewBag.Paises)
+    {
+        <div class="col-sm-3 text-center">
+            <div class="d-flex justify-content-center">
+                <a style="text-decoration: none" href='@Url.Action("VerDetallePais", new {idPais = pais.IdPais})'>
+                    <div class=" imagenesPaises mb-5" style="width: 10vw;">
+                        <img class="shadow-lg mb-4 " style="border-radius: 20%" src="@pais.Bandera" height="180" width="200">
+                        <p class="text-black">@pais.Nombre</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
 </div>

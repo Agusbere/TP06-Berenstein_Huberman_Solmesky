@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP06_Berenstein_Huberman_Solmesky
 build_property.RootNamespace = TP06_Berenstein_Huberman_Solmesky
-build_property.ProjectDir = C:\Users\48178406\Desktop\TP06-Berenstein_Huberman_Solmesky\
+build_property.ProjectDir = C:\Users\48458614\Desktop\vsavs\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\48178406\Desktop\TP06-Berenstein_Huberman_Solmesky
+build_property.MSBuildProjectDirectory = C:\Users\48458614\Desktop\vsavs
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/AgregarDeportista.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/AgregarDeportista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyRGVwb3J0aXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/Creditos.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/Creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/Deportes.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/Deportes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvcnRlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/Deportistas.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/Deportistas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvcnRpc3Rhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/Index.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/Paises.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/Paises.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWlzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/Privacy.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/VerDetalleDeporte.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/VerDetalleDeporte.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlRGVwb3J0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/VerDetalleDeportista.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/VerDetalleDeportista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlRGVwb3J0aXN0YS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Home/VerDetallePais.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Home/VerDetallePais.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlUGFpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Shared/Error.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/_ViewImports.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/_ViewStart.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/48178406/Desktop/TP06-Berenstein_Huberman_Solmesky/Views/Shared/_Layout.cshtml]
+[C:/Users/48458614/Desktop/vsavs/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ualwsnb49w

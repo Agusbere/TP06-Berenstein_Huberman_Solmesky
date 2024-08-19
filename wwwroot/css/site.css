@@ -76,3 +76,10 @@ text-decoration: underline;
   text-decoration: underline;
 }
 
+.imagenesPaises{
+  transition: transform 0.2s;
+}
+
+.imagenesPaises:hover{
+  transform: scale(1.2);
+}
