@@ -13,12 +13,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\48179712\\Downloads\\dsvegfre\\wwwroot\\img\\Brian.png",
+      "PackagePath": "staticwebassets\\img\\Brian.png"
+    },
+    {
+      "Id": "C:\\Users\\48179712\\Downloads\\dsvegfre\\wwwroot\\img\\Gusa.png",
+      "PackagePath": "staticwebassets\\img\\Gusa.png"
+    },
+    {
+      "Id": "C:\\Users\\48179712\\Downloads\\dsvegfre\\wwwroot\\img\\Santi.png",
+      "PackagePath": "staticwebassets\\img\\Santi.png"
+    },
+    {
       "Id": "C:\\Users\\48179712\\Downloads\\dsvegfre\\wwwroot\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },
     {
       "Id": "C:\\Users\\48179712\\Downloads\\dsvegfre\\wwwroot\\img\\logo.svg",
       "PackagePath": "staticwebassets\\img\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\48179712\\Downloads\\dsvegfre\\wwwroot\\img\\vini.png",
+      "PackagePath": "staticwebassets\\img\\vini.png"
     },
     {
       "Id": "C:\\Users\\48179712\\Downloads\\dsvegfre\\wwwroot\\js\\site.js",
