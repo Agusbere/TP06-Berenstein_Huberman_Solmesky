@@ -1,45 +1,43 @@
 <div class = "container">
-<form class="row g-3" action = '@Url.Action("GuardarDeportista")'>
-    <div class="col-md-6">
-        <label class="form-label"></label>
-        <input type="text" class="form-control" name="Apellido" placeholder= "Apellido" autocomplete = "off" required>
-    </div>
-    <div class="col-md-6">
-        <label class="form-label"></label>
-        <input type="text" class="form-control" name="Nombre" placeholder= "Nombre" autocomplete = "off" required>
-    </div>
-    <div class="col-md-6">
-        <label class="form-label"></label>
-        <input type="date" class="form-control" name="FechaNacimiento" placeholder= "Fecha de nacimiento" autocomplete = "off" required>
-    </div>
-    <div class="col-md-6">
-        <label class="form-label"></label>
-        <input type="text" class="form-control" name="Foto" placeholder= "Link foto deportista" autocomplete = "off" required>
-    </div>
-    <div class="col-md-4">
-        <label  class="form-label"></label>
-        <select class="form-select" name="IdPais">
-            <option value="">Elige su pais</option>
-                @foreach (Pais pais in ViewBag.Paises)
-                {
-                    <option value="@pais.IdPais">@pais.Nombre</option>
-                }
-        </select>
-    </div>
-    <div class="col-md-4">
-        <label class="form-label"></label>
-        <select class = "form-select" name="IdDeporte">
-            <option value="">Elige su deporte</option>
-                @foreach (Deporte deporte in ViewBag.Deportes)
-                {
-                    <option value="@deporte.IdDeporte">@deporte.Nombre</option>
-                }
-        </select>
-    </div>
-
-    </div>
-    <div class="col-12 mt-5 d-flex justify-content-center">
-        <button type="submit" class="btn btn-primary">Agregar deportista</button>
-    </div>
+    <form action = '@Url.Action("GuardarDeportista")' class="row g-3">
+        <div class="col-md-6">
+            <label class="form-label"></label>
+            <input type="text" class="form-control" name="Apellido" placeholder= "Apellido" autocomplete = "off" required>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label"></label>
+            <input type="text" class="form-control" name="Nombre" placeholder= "Nombre" autocomplete = "off" required>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label"></label>
+            <input type="date" class="form-control" name="FechaNacimiento" placeholder= "Fecha de nacimiento" autocomplete = "off" required>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label"></label>
+            <input type="text" class="form-control" name="Foto" placeholder= "Link foto deportista" autocomplete = "off" required>
+        </div>
+        <div class="col-md-4">
+            <label  class="form-label"></label>
+            <select class="form-select" name="IdPais">
+                <option value="">Elige su pais</option>
+                    @foreach (Pais pais in ViewBag.Paises)
+                    {
+                        <option value="@pais.IdPais">@pais.Nombre</option>
+                    }
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label class="form-label"></label>
+            <select class = "form-select" name="IdDeporte">
+                <option value="">Elige su deporte</option>
+                    @foreach (Deporte deporte in ViewBag.Deportes)
+                    {
+                        <option value="@deporte.IdDeporte">@deporte.Nombre</option>
+                    }
+            </select>
+        </div>
+        <div class="col-12 mt-5 d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Agregar deportista</button>
+        </div>
     </form>
 </div>
