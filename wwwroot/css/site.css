@@ -83,3 +83,8 @@ text-decoration: underline;
 .imagenesPaises:hover{
   transform: scale(1.2);
 }
+
+.agregarDeportista{
+
+  margin-left:17% ;
+}
