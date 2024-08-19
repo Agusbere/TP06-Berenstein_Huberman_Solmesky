@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP06-Berenstein_Huberman_Solmesky")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b58d9eed7e4ea1fd73ec1af88dd589d8512bf759")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dbdbce98391ff801172660f27a0d1e52a2baafd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP06-Berenstein_Huberman_Solmesky")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP06-Berenstein_Huberman_Solmesky")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
