@@ -13,7 +13,7 @@
     <div class="d-flex justify-content-center mt-5">
         <div class="imagenesPaises col-sm-3 text-center">
             <div class="d-flex justify-content-center">
-                <a style="text-decoration: none" href='@Url.Action("VerDetallePais", new {idPais = @ViewBag.DeportistaYDeporte.IdDeporte})'>
+                <a style="text-decoration: none" href= '@Url.Action("VerDetalleDeporte", new {idDeporte = @ViewBag.DeportistaYDeporte.IdDeporte})'>
                     <div class=" imagenesPaises mb-5" style="width: 10vw;">
                         <img class="shadow-lg mb-4 " style="border-radius: 20%" src="@ViewBag.DeportistaYDeporte.Foto" height="120" width="140">
                         <p class="text-black">@ViewBag.DeportistaYDeporte.Nombre</p>
@@ -23,7 +23,7 @@
         </div>
         <div class="imagenesPaises col-sm-3 text-center">
             <div class="d-flex justify-content-center">
-                <a style="text-decoration: none" href='@Url.Action("VerDetallePais", new {idPais = @ViewBag.DeportistaYDeporte.IdDeporte})'>
+                <a style="text-decoration: none" href='@Url.Action("VerDetallePais", new {idPais = @ViewBag.DeportistaYPais.IdPais})'>
                     <div class=" imagenesPaises mb-5" style="width: 10vw;">
                         <img class="shadow-lg mb-4 " style="border-radius: 20%" src="@ViewBag.DeportistaYPais.Bandera" height="120" width="140">
                         <p class="text-black">@ViewBag.DeportistaYPais.Nombre</p>
